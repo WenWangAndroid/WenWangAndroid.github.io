@@ -21,7 +21,7 @@ gradle init --dsl kotlin    //使用kotlin
 ```
 命令执行成功后，项目文件夹中会生成如下内容
 
-![image](image/D1682EDB-68C8-42CC-AC33-9953E9B9FEA2.png)
+![image](gradle/image/gradle01.png)
 
 build.gradle.kts：用于配置当前项目的Gradle构建脚本<br>
 gradle-wrapper.jar：Gradle Wrapper可执行JAR<br>
@@ -59,7 +59,7 @@ gradlew task
 ```
 相关命令
 
-![image](image/EC09FABD-627F-42A0-A818-6BD77A710A67.png)
+![image](gradle/image/gradle02.png)
 
 ## 3 Android Gradle 构建
 ### 3.1 项目gradle文件
@@ -242,17 +242,17 @@ variantFilter { variant ->
 
 筛选前
 
-![image](image/2E0878DE-1A1F-4C52-AD6B-203CA742B22A.png)
+![image](gradle/image/gradle03.png)
 
 筛选后
 
-![image](image/A0E77F99-AF8E-4652-B07F-74FE187A5779.png)
+![image](gradle/image/gradle04.png)
 
 #### 3.2.7 配置源集
 Project -> Module -> src -> 右键 -> New -> Folder -> Java Folder（或其它）<br>
 配置完成后
 
-![image](image/2E0878DE-1A1F-4C52-AD6B-203CA742B22A.png)
+![image](gradle/image/gradle05.png)
 
 #### 3.2.8 多APK配置
 根据手机 屏幕密度 或 应用程序二进制接口（ABI）的文件的不同，打包多个APK
@@ -274,7 +274,7 @@ splits {
 ```
 此时生成的apk
 
-![image](image/8D908316-FADC-42AF-84BB-AD784174592A.png)
+![image](gradle/image/gradle06.png)
 
 #### 3.2.9 自定义Apk名称
 遍历，批量修改输出的 APK 名称
@@ -288,7 +288,7 @@ applicationVariants.all { variant ->
 ```
 此时生成的apk
 
-![image](image/5022DC2F-2D94-45DB-BA51-0563D58AB6A0.png)
+![image](gradle/image/gradle07.png)
 
 #### 3.2.10 打包命令
 
