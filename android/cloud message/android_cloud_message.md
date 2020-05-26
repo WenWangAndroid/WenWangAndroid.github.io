@@ -21,7 +21,9 @@ FCM可以理解为前文提到的手机厂商通道，Google厂商提供的，�
 
 ### 1.2 移动端接口规范
 引用《统一推送通道层接口规范》中的内容，移动端接口总方案图如下，UPS (Unified Push Server)。
-![](https://lexiangla.com/assets/bd3953b89e6d11eab7d50a58ac13b761)
+
+![image](./image/统一推送方案.png)
+
 定义通用的请求，通过方法名进行实现扩展。
 
 ### 1.3 统一推送联盟API介绍
@@ -73,7 +75,8 @@ UPSRegisterCallBack 中获取Token。
 4. vivo手机应用的通知权限默认是关闭的，如果接入了vivo厂商推送，可以联系vivo客服，把应用加入白名单，使应用的通知权限默认开启；
 5. SDK最低只支持Android 6.0；
 6. 具有机型限制，以下为可用机型。
-![](https://lexiangla.com/assets/00d6e1009b1511ea92810a58ac13b278)
+![image](./image/vivo手机限制.png)
+
 
 ##3 第三方推送
 
@@ -95,9 +98,9 @@ UPSRegisterCallBack 中获取Token。
 支持短信补充服务的第三方推送。
 
 - 个推
-![](https://lexiangla.com/assets/7c4365289e5511ea8fa00a58ac13cb4f)
+![image](./image/个推.png)
 - 极光推送
-![极光短信价格](https://lexiangla.com/assets/f2c760b69e5311ea9ad00a58ac13f1fc "极光短信价格")
+![image](./image/极光短信.png)
 - 阿里云、MobPush也提供短信服务，但未发现与通知相关联的API。
 
 ##4 集成方案
