@@ -9,7 +9,7 @@
 
 ### Cloud Message Push
  - [Android消息推送服务](./android/mobile_service/android_cloud_message.md)
- - [HUAWEI移动服务HMS](./android/mobile_service/android_cloud_message.md)
+ - [华为移动服务HMS](./android/mobile_service/hms.md)
  
 ### RecyclerView
 
