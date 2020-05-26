@@ -19,6 +19,9 @@
  - [RecyclerView基础][1]
  - [RecyclerView——LayoutManager自定义实现横向无限循环滑动][2] 
  - [RecyclerView——ItemDecoration][3] 
+ - [RecyclerView——ItemTouchHelper][3] 
+ - [RecyclerView——SnapHelper][3] 
+ - [ViewPager2简介][3] 
 
 ### MPAndroidChart
 
@@ -29,6 +32,8 @@
 
 ## Flutter
 
+ - [Flutter-Web调用JS库][3] 
+ 
 ## Python
 
 ## 其他
