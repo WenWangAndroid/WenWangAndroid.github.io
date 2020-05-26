@@ -18,7 +18,7 @@
  - [动态壁纸](./android/mobile_service/hms.md)
  - [App快捷方式](./android/mobile_service/hms.md)
  - [创建桌面快捷方式——华为手机兼容](./android/separate_function/创建桌面快捷方式之兼容华为手机.md)
- - [辅助功能服务——实现微信自动回复](./android/mobile_service/hms.md)
+ - [辅助功能服务应用——实现微信自动回复](./android/separate_function/辅助功能服务应用之微信自动回复.md)
  
 ### RecyclerView
 
