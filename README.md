@@ -1,10 +1,10 @@
-# 欢迎来到 WenWang 的博客
+# 欢迎来到 XHU_WW 的博客
 
 ## Android
 
 ### 项目构建
  - [Gradle常用功能 —— 编译、构建、打包](./gradle/gradle的简单使用.md)
- - [Android App Bundle —— App应用.aab发布格式](./gradle/gradle的简单使用.md)
+ - [Android App Bundle —— App应用.aab发布格式](./android/project/AndroidAppBundle.md)
  
 ### Android Studio插件
  - [IntelliJ IDEA插件开发入门](./gradle/gradle的简单使用.md)
