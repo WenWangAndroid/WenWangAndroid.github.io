@@ -7,8 +7,8 @@
  - [Android App Bundle —— App应用.aab发布格式](./android/project/AndroidAppBundle.md)
  
 ### Android Studio插件
- - [IntelliJ IDEA插件开发入门](./gradle/gradle的简单使用.md)
- - [Android Studio插件开发实战 —— ADBHelper插件开发](./gradle/gradle的简单使用.md)
+ - [IntelliJ IDEA插件开发入门](https://blog.csdn.net/ww897532167/article/details/105878955)
+ - [Android Studio插件开发实战 —— 获取当前App顶部的Activity名称](https://blog.csdn.net/ww897532167/article/details/105882890)
 
 ### 第三方服务
  - [Android消息推送服务](./android/mobile_service/android_cloud_message.md)
@@ -17,7 +17,7 @@
 ### 独立功能
  - [动态壁纸](./android/mobile_service/hms.md)
  - [App快捷方式](./android/mobile_service/hms.md)
- - [创建桌面快捷方式——华为手机兼容](./android/mobile_service/hms.md)
+ - [创建桌面快捷方式——华为手机兼容](./android/separate_function/创建桌面快捷方式之兼容华为手机.md)
  - [辅助功能服务——实现微信自动回复](./android/mobile_service/hms.md)
  
 ### RecyclerView
