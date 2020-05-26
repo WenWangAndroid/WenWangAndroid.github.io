@@ -17,12 +17,13 @@ Android App Bundle 是Android新推出的一种官方发布格式，采用这种
 
 ![](./aab_image/huawei.png)
 
-
 ## 2. 怎样实现减小APK体积
-以下内容引用官方文档的介绍
 
+`以下内容引用官方文档的介绍`
 
 App bundle 是经过签名的二进制文件，可将应用的代码和资源整理到模块中，如图所示。
+
+![](./aab_image/aab.png)
 
 各个模块的代码和资源的组织整理方式与 APK 中的相似，每个模块都可以作为单独的 APK 生成。然后，Google Play 会使用 app bundle 来生成向用户提供的各种 APK，例如基本 APK、动态功能 APK、配置 APK 以及多 APK（对于不支持拆分 APK 的设备）。
 
