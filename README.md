@@ -8,8 +8,8 @@
 ### IntelliJ IDEA Plugin
 
 ### Cloud Message Push
- - [Android消息推送服务](./android/cloud_message/android_cloud_message.md)
- - [HUAWEI移动服务HMS](./android/cloud_message/android_cloud_message.md)
+ - [Android消息推送服务](./android/mobile_service/android_cloud_message.md)
+ - [HUAWEI移动服务HMS](./android/mobile_service/android_cloud_message.md)
  
 ### RecyclerView
 
