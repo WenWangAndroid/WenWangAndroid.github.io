@@ -1,5 +1,6 @@
+# Android 消息推送服务
+----
 # 全球
-
 ## FCM
 最初Google提供的官方推送服务为Google Cloud Message（GCM）,但2018年4月10日Google宣布弃用GCM，2019年5月29日GCM服务器和客户端API被删除，所以现在全球范围内针对Android的推送为Firebase Cloud Messaging（FCM）。
 
@@ -78,7 +79,7 @@ UPSRegisterCallBack 中获取Token。
 ![image](./image/vivo手机限制.png)
 
 
-##3 第三方推送
+## 3 第三方推送
 
 ### 3.1 App消息推送
 
