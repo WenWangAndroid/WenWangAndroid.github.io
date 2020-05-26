@@ -14,6 +14,12 @@
  - [Android消息推送服务](./android/mobile_service/android_cloud_message.md)
  - [华为移动服务HMS](./android/mobile_service/hms.md)
  
+### 独立功能
+ - [动态壁纸](./android/mobile_service/hms.md)
+ - [App快捷方式](./android/mobile_service/hms.md)
+ - [创建桌面快捷方式——华为手机兼容](./android/mobile_service/hms.md)
+ - [辅助功能服务——实现微信自动回复](./android/mobile_service/hms.md)
+ 
 ### RecyclerView
 
  - [RecyclerView基础][1]
