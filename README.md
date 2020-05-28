@@ -21,21 +21,19 @@
  - [辅助功能服务应用——实现微信自动回复](./android/separate_function/辅助功能服务应用之微信自动回复.md)
  
 ### UI
-#### RecyclerView
- - [RecyclerView的基本使用](./android/ui/recyclerview/RecyclerView的基本使用.md)
- - [RecyclerView——LayoutManager自定义实现横向无限循环滑动](./android/ui/recyclerview/RecyclerView-LayoutManager自定义实现横向无限循环滑动.md])
- - [RecyclerView——ItemDecoration自定义实现时间轴以及悬浮吸顶效果](./android/ui/recyclerview/RecyclerView-ItemDecoration自定义.md) 
- - [RecyclerView——ItemTouchHelper][3] 
- - [RecyclerView——SnapHelper][3] 
- - [ViewPager2简介][3] 
+- RecyclerView
+  - [RecyclerView的基本使用](./android/ui/recyclerview/RecyclerView的基本使用.md)
+  - [RecyclerView——LayoutManager自定义实现横向无限循环滑动](./android/ui/recyclerview/RecyclerView-LayoutManager自定义实现横向无限循环滑动.md])
+  - [RecyclerView——ItemDecoration自定义实现时间轴以及悬浮吸顶效果](./android/ui/recyclerview/RecyclerView-ItemDecoration自定义.md) 
+  - [RecyclerView——ItemTouchHelper][3] 
+  - [RecyclerView——SnapHelper][3] 
+  - [ViewPager2简介][3] 
 
 ### 第三方开源库
 - [热修复框架介绍](./android/third_party_framework/热修复框架介绍.md)
-
-#### MPAndroidChart
-
-#### Glide
-- [Glide-GIF加载以及播放问题](./android/third_party_framework/Glide-GIF加载以及播放问题.md)
+- MPAndroidChart
+- Glide
+  - [Glide-GIF加载以及播放问题](./android/third_party_framework/Glide-GIF加载以及播放问题.md)
 
 ## Flutter
 
