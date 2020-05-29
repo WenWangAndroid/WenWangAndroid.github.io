@@ -1,7 +1,5 @@
 # 华为移动服务HMS
 
----
-
 **本文内容**
 
 1. **什么是HMS？**
@@ -208,22 +206,7 @@ AndroidManifest.xml 中注册 service
 ![上架失败](./hms_image/17.png)
 
 # 4. 既存项目从Firebase迁移至HMS
-尝试将某项目从Firebase迁移至HMS，下面简单介绍下。
-
-## 4.1 X项目涉及的服务
-下面简单列举一下项目中使用到的Firebase/Google相关服务，其中除了云存储区别比较大以外，其它服务在HMS都能找到对应的服务。
-- 消息推送 Cloug Messageing（FCM）
-- 云存储 Storage
-- 远程配置 Remote Config
-- AB测试  A/B Testing
-- 崩溃记录 Crashlytics
-- 用户行为分析 Analytics
-- 机器学习套件 ML Kit
-- 地图  Google Map
-
-## 4.2 迁移
-当前只试了将Google地图和FCM 修改为HMS相关服务。
-### 4.2.1 推送服务
+## 4.1 消息推送
 如 2.3 尝试HMS推送服务 中所述，修改X项目中推送服务代码目前来看仅需 修改包名。
 **service**
 ``` java
@@ -246,8 +229,8 @@ com.huawei.hms.push.RemoteMessage
 ```
 目前来看从编译运行到普通通知展示并无问题，实际开发中还需根据实际情况而定。
 
-### 4.2.2 地图服务
-X项目中使用的是MapView，修改地图相关代码也只是修改包名，其它代码不变。
+## 4.2 地图
+项目中使用的是MapView，修改地图相关代码也只是修改包名，其它代码不变。
 **布局文件**
 
 ``` xml
@@ -279,11 +262,7 @@ import com.huawei.hms.maps.model.MapStyleOptions;
 import com.huawei.hms.maps.model.MarkerOptions;
 ```
 
-地图展示效果
-
-![华为地图展示](./hms_image/13.png)
-
-### 4.2.3 定位服务
+## 4.3 定位
 X项目中虽未涉及Google 定位功能，但还是尝试了一下HMS定位服务。
 **API设计一致，但HMS无API获取到详细的位置信息，如 xxx街道、小区**
 实现定位步骤：
@@ -293,7 +272,7 @@ X项目中虽未涉及Google 定位功能，但还是尝试了一下HMS定位服
 https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=YOUR_API_KEY
 ```
 
-## 4.3 HMS Core Toolkit 辅助插件
+## 4.4 HMS Core Toolkit 辅助插件
 
 该插件为Android Studio插件，可以使用该插件来进行快速迁移。
 
